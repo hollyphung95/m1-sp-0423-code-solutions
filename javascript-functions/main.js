@@ -1,33 +1,41 @@
-
-/* Define a function named convertMinutesToSeconds with one parameter: minutes.
-minutes will be a number of minutes.
-the function should return the equivalent number of seconds. */
+/**
+ * Returns minutes multiplied by 60.
+ * @param {number} minutes
+ * @returns the equivalent number of seconds.
+ */
 function convertMinutesToSeconds(minutes) {
   const seconds = 60 * minutes;
   return seconds;
 }
 console.log('There are ', convertMinutesToSeconds(5), ' seconds');
 
-/* Define a function named greet with one parameter: name.
-name will be a string representing a person's name.
-The function should return a greeting that includes the name. */
+/**
+ * Returns a greeting that includes name.
+ * @param {string} name a string representing a person's name.
+ * @returns a greeting that includes the name.
+ */
 function greet(name) {
   const greeting = 'Hi ' + name + ', have a great day !';
   return greeting;
 }
 console.log(greet('Holly'));
 
-/* Define a function named getArea with two parameters: width and height.
-The parameters will be the width and height of a rectangle.
-The function should return the area of that rectangle. */
-function getArea(width, height) {
-  return width * height;
+/**
+ * Returns width multiplied by height
+ * @param {number} x The width of rectangle.
+ * @param {number} y The height of the rectangle.
+ * @returns the area of that rectangle
+ */
+function getArea(x, y) {
+  return x * y;
 }
 console.log('the area of the width and height is :', getArea(2, 5));
 
-/* Define a function named getFirstName with one parameter: person.
-person will be a JavaScript object with firstName and a lastName properties.
-The function should return the first name of the person. */
+/**
+ * Return the firstName of the person
+ * @param {object} person contains firstName and lastName properties
+ * @returns first name of person.
+ */
 function getFirstName(person) {
   return person.firstName;
 }
@@ -36,9 +44,12 @@ console.log('the persons first name is: ', getFirstName({
   lastName: 'Phung'
 }));
 
-/* Define a function named getLastElement with one parameter: array.
-array will be a JavaScript array.
-The function should return the last element of the array. */
+/**
+ * Returns the last element of the list
+ *
+ * @param {array} array list of elements
+ * @returns The last element of the array.
+ */
 function getLastElement(array) {
   return array[array.length - 1];
 }
