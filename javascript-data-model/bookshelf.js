@@ -18,4 +18,4 @@ var bookshelf = [
 
 console.log('The name of the author of the second book is: ', bookshelf[1].author);
 console.log('The ISBN of the author of the first book is: ', bookshelf[0].isbn);
-console.log('The title of the author of the third book is: ', bookshelf[2].title);
+console.log('The title of the third book is: ', bookshelf[2].title);
