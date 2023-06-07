@@ -3,7 +3,7 @@
 minutes will be a number of minutes.
 the function should return the equivalent number of seconds. */
 function convertMinutesToSeconds(minutes) {
-  var seconds = 60 * minutes;
+  const seconds = 60 * minutes;
   return seconds;
 }
 console.log('There are ', convertMinutesToSeconds(5), ' seconds');
@@ -12,7 +12,7 @@ console.log('There are ', convertMinutesToSeconds(5), ' seconds');
 name will be a string representing a person's name.
 The function should return a greeting that includes the name. */
 function greet(name) {
-  var greeting = 'Hi ' + name + ', have a great day !';
+  const greeting = 'Hi ' + name + ', have a great day !';
   return greeting;
 }
 console.log(greet('Holly'));
