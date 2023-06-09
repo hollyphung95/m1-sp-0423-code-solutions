@@ -38,3 +38,11 @@ library.unshift(css);
 
 library.splice(1);
 console.log('value of library: ', library);
+
+const fullName = 'Holly Phung';
+const firstAndLastName = fullName.split(' ');
+console.log('value of firstAndLastName: ', firstAndLastName);
+
+const firstName = firstAndLastName[0];
+const sayMyName = firstName.toUpperCase();
+console.log('value of sayMyName: ', sayMyName);
