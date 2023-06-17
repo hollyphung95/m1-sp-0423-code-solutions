@@ -1,0 +1,15 @@
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.striped tr:nth-child(2n+1) {
+  background-color: grey;
+  color: black;
+}
