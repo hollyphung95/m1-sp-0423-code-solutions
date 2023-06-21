@@ -1,0 +1,16 @@
+html {
+  font-size: 22px;
+}
+
+.page-title {
+  font-size: 3rem;
+  text-align: center;
+
+  /* your code here */
+  position: fixed;
+  align-self: center;
+  align-content: center;
+  margin: 0 25%;
+  overflow: clip;
+  overflow-clip-margin: 1.1rem;
+}
